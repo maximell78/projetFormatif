@@ -1,0 +1,12 @@
+/* style.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/06/14 */
+
+$couleurs: ("rouge": red, "bleu": blue, "vert": green, "jaune": yellow, "rose": pink)
+
+@each $couleur, $compteur in $couleurs
+    .bg__
+        &#{$couleur}
+            background-color: $compteur
+            padding: 15%
+            background-repeat: no-repeat
