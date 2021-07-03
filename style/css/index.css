@@ -1,0 +1,49 @@
+.bg__rouge {
+  background-color: red;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.bg__bleu {
+  background-color: blue;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.bg__vert {
+  background-color: green;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.bg__rose {
+  background-color: pink;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.bg__noir {
+  background-color: black;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+.pol__rouge {
+  color: red;
+}
+
+.pol__bleu {
+  color: blue;
+}
+
+.pol__vert {
+  color: green;
+}
+
+.pol__rose {
+  color: pink;
+}
+
+.pol__noir {
+  color: black;
+}

@@ -10,52 +10,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Formatif</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./banniere/style/css/style.css">
-    <link rel="stylesheet" href="./categorie/style/css/style.css">
-    <link rel="stylesheet" href="./footer/style/css/style.css">
-    <link rel="stylesheet" href="./galerie/style/css/style.css">
-    <link rel="stylesheet" href="./navigation/style/css/style.css">
-    <link rel="stylesheet" href="./pub/style/css/style.css">
-    <link rel="stylesheet" href="./decoupage/style/css/style.css">
+    <link rel="stylesheet" href="./style/css/index.css">
 </head>
 <body>
-    <!--NavBar + Banniere-->
-    <header>
-        <div>
-          <nav class="justify-content-md-end">
-              <img class="img-fluid" src="media/Logo3.png" alt="Logo" id="logo" />
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-socks blanc"></i>
-            </button>
-            <div class="collapse navbar-collapse">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link text-warning" href="#">Accueil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="#">Les Critiques à Chris</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="bieres.html"
-                    >Nos Dégustations « Alcoolo »</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-warning" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+  <!--NavBar + Banniere-->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section Catégorie -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <button class="btn-primary mr-2 rounded-lg">
+            All
+          </button>
+          <button>
+            Commercial
+          </button>
+          <button>
+            Design
+          </button>
+          <button>
+            Nature
+          </button>
+          <button>
+            People
+          </button>
+          <button>
+            Photographie
+          </button>
+          <button>
+            Tech
+          </button>
+          <button>
+            Travel
+          </button>
+          <button>
+            Uncategorized
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Galerie -->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 bg__rouge">
+
+              </div>
+              <div class="col-lg-6 bg__bleu">
+
+              </div>
+              <div class="col-lg-6 bg__bleu">
+
+              </div>
+              <div class="col-lg-6 bg__rouge">
+
+              </div>
+              <div class="col-lg-6 bg__rouge">
+
+              </div>
+              <div class="col-lg-6 bg__bleu">
+
+              </div>
+            </div>
+          </div>            
+        </div>
+        <div class="col-lg-4 bg__vert">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg__noir">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="pol__vert">
+            bla bla bla
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="pol__vert">
+            bla bla bla
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="pol__vert">
+            bla bla bla
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center pol__bleu">  Boom boom boom</p>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
 

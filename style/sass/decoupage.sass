@@ -1,0 +1,13 @@
+$couleurs: ("rouge": red, "bleu": blue, "vert": green, "rose": pink, "noir": black)
+
+@each $couleur, $i in $couleurs
+    .bg__
+        &#{$couleur}
+            background-color: $i
+            background-repeat: no-repeat
+            padding: 10%
+
+@each $police, $i in $couleurs
+    .pol__
+        &#{$police}
+            color: $i
