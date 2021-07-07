@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg__rouge {
   background-color: red;
   background-repeat: no-repeat;
@@ -46,4 +47,20 @@
 
 .pol__noir {
   color: black;
+}
+
+/* banniere.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/07/06 */
+.theme__eau {
+  background-image: url(../../image/banniere.jpg);
+  height: 23em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.logo__logo1 {
+  background-image: url(../../image/logo.jpg);
 }

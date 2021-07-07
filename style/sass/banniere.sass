@@ -1,0 +1,27 @@
+/* banniere.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/07/06 */
+
+$banniere: ("eau": url(../../image/banniere.jpg))
+
+@each $theme, $i in $banniere
+    .theme__
+        &#{$theme}
+            background-image: $i
+            height: 23em
+            background-position: center
+            background-repeat: no-repeat
+            background-size: cover
+            padding-top: 25px            
+            
+
+
+$logo: ("logo1":url(../../image/logo.jpg))
+
+@each $version, $i in $logo
+    .logo__
+        &#{$version}
+            background-image: $i
+
+$couleur: ("blanc")
+            

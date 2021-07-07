@@ -1,0 +1,12 @@
+
+    $couleurs: ("rouge": red, "bleu": blue, "vert": green, "rose": pink, "noir": black, "blanc": white)
+
+@each $police, $i in $couleurs
+    .pol__
+        &#{$police}
+            color: $i
+
+@for $compteur from 1 through 6
+    .pol__size--#{$compteur}
+        font-size: $compteur * 3.5px
+

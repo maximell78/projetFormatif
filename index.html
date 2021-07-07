@@ -10,67 +10,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Formatif</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./style/css/index.css">
+    <link rel="stylesheet" href="style/css/decoupage.css">
+    <link rel="stylesheet" href="style/css/banniere.css">
+    <link rel="stylesheet" href="style/css/police.css">
+    <link rel="stylesheet" href="style/css/font.css">
 </head>
 <body>
   <!--NavBar + Banniere-->
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+  
+  <header class="theme__eau">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <img class="img-fluid" src="image/logo.png" alt="Logo" id="logo" />
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto pb-4">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link pol__blanc montserratBold pol__size--4 pr-4" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link pol__blanc montserratBold pol__size--4 pr-4" href="#">Style</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link pol__blanc montserratBold pol__size--4 pr-4" href="#">People</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link pol__blanc montserratBold pol__size--4 pr-4" href="#">Design</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link pol__blanc montserratBold pol__size--4 pr-4" href="#">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pol__blanc montserratBold pol__size--4 pr-4" href="#">  Commercial</a>
+            </li>
+            <i class="fas fa-search pol__blanc pr-3 pt-2"></i>
+            <i class="fab fa-twitter pol__blanc pr-3 pt-2"></i>
+            <i class="fab fa-facebook-f pol__blanc pt-2"></i>            
           </ul>
-        </div>
-      </nav>
+        </div>        
+      </nav>      
+      <div>
+        <h1 class="pol__blanc text-center pt-5"><strong> Home </strong></h1>
+      </div>
     </div>
   </header>
 
   <!-- Section Catégorie -->
+
   <section>
-    <div class="container">
+    <div class="container pb-5 pt-5">
       <div class="row">
         <div class="col-12">
-          <button class="btn-primary mr-2 rounded-lg">
+          <button class="btn-primary mr-2 rounded-pill">
             All
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Commercial
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Design
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Nature
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             People
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Photographie
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Tech
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Travel
           </button>
-          <button>
+          <button class="btn-primary mr-2 rounded-pill">
             Uncategorized
           </button>
 
