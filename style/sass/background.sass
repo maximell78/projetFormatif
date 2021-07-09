@@ -1,0 +1,6 @@
+$couleurs: ("blanc": white)
+
+@each $couleur, $i in $couleurs
+    .bg__
+        &#{$couleur}
+            background-color: $i

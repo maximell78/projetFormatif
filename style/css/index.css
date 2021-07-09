@@ -29,36 +29,16 @@
   padding: 10%;
 }
 
-.pol__rouge {
-  color: red;
-}
-
-.pol__bleu {
-  color: blue;
-}
-
-.pol__vert {
-  color: green;
-}
-
-.pol__rose {
-  color: pink;
-}
-
-.pol__noir {
-  color: black;
-}
-
 /* banniere.css */
 /* Programmé par : Maxime Lacroix-Lemire */
 /* Dernière Mise À  Jour :  2021/07/06 */
 .theme__eau {
   background-image: url(../../image/banniere.jpg);
-  height: 23em;
+  height: 29em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 .logo__logo1 {

@@ -1,12 +1,27 @@
+/* Importation des familles de polices */
 
-    $couleurs: ("rouge": red, "bleu": blue, "vert": green, "rose": pink, "noir": black, "blanc": white)
+@font-face 
+    font-family: montserratSemiBold
+    src: url(../../police/Montserrat/Montserrat-Bold.ttf)
 
-@each $police, $i in $couleurs
+@font-face 
+    font-family: ralewayThin
+    src: url(../../police/Raleway/static/Raleway-Regular.ttf)
+
+$couleurs: ("Noir": black, "Blanc": white)
+$typePolices: (montserratSemiBold, ralewayThin)
+
+@each $couleur, $i in $couleurs
     .pol__
-        &#{$police}
+        &#{$couleur}
             color: $i
-
-@for $compteur from 1 through 6
-    .pol__size--#{$compteur}
-        font-size: $compteur * 3.5px
+        @each $typePolice in $typePolices             
+            &#{$typePolice}
+                &#{$couleur}            
+                    color: $i          
+                    @for $nbr from 1 through 25                
+                        &--#{$nbr}
+                            font-family: $typePolice
+                            color: $i
+                            font-size: $compteur * 2px
 

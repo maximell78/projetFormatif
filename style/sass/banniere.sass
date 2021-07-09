@@ -8,20 +8,15 @@ $banniere: ("eau": url(../../image/banniere.jpg))
     .theme__
         &#{$theme}
             background-image: $i
-            height: 23em
+            height: 29em
             background-position: center
             background-repeat: no-repeat
             background-size: cover
-            padding-top: 25px            
-            
-
+            padding-top: 25px
 
 $logo: ("logo1":url(../../image/logo.jpg))
 
 @each $version, $i in $logo
     .logo__
         &#{$version}
-            background-image: $i
-
-$couleur: ("blanc")
-            
+            background-image: $i            

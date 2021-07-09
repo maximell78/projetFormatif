@@ -1,47 +1,528 @@
-.pol__rouge {
-  color: red;
+/* Importation des familles de polices */
+@font-face {
+  font-family: montserratSemiBold;
+  src: url(../../police/Montserrat/Montserrat-Bold.ttf);
 }
-
-.pol__bleu {
-  color: blue;
+@font-face {
+  font-family: ralewayThin;
+  src: url(../../police/Raleway/static/Raleway-Regular.ttf);
 }
-
-.pol__vert {
-  color: green;
-}
-
-.pol__rose {
-  color: pink;
-}
-
-.pol__noir {
+.pol__Noir {
   color: black;
 }
-
-.pol__blanc {
-  color: white;
+.pol__montserratSemiBoldNoir {
+  color: black;
 }
-
-.pol__size--1 {
-  font-size: 3.5px;
+.pol__montserratSemiBoldNoir--1 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 2px;
 }
-
-.pol__size--2 {
-  font-size: 7px;
+.pol__montserratSemiBoldNoir--2 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 4px;
 }
-
-.pol__size--3 {
-  font-size: 10.5px;
+.pol__montserratSemiBoldNoir--3 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 6px;
 }
-
-.pol__size--4 {
+.pol__montserratSemiBoldNoir--4 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 8px;
+}
+.pol__montserratSemiBoldNoir--5 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 10px;
+}
+.pol__montserratSemiBoldNoir--6 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 12px;
+}
+.pol__montserratSemiBoldNoir--7 {
+  font-family: montserratSemiBold;
+  color: black;
   font-size: 14px;
 }
-
-.pol__size--5 {
-  font-size: 17.5px;
+.pol__montserratSemiBoldNoir--8 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 16px;
+}
+.pol__montserratSemiBoldNoir--9 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 18px;
+}
+.pol__montserratSemiBoldNoir--10 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 20px;
+}
+.pol__montserratSemiBoldNoir--11 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 22px;
+}
+.pol__montserratSemiBoldNoir--12 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 24px;
+}
+.pol__montserratSemiBoldNoir--13 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 26px;
+}
+.pol__montserratSemiBoldNoir--14 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 28px;
+}
+.pol__montserratSemiBoldNoir--15 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 30px;
+}
+.pol__montserratSemiBoldNoir--16 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 32px;
+}
+.pol__montserratSemiBoldNoir--17 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 34px;
+}
+.pol__montserratSemiBoldNoir--18 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 36px;
+}
+.pol__montserratSemiBoldNoir--19 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 38px;
+}
+.pol__montserratSemiBoldNoir--20 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 40px;
+}
+.pol__montserratSemiBoldNoir--21 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 42px;
+}
+.pol__montserratSemiBoldNoir--22 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 44px;
+}
+.pol__montserratSemiBoldNoir--23 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 46px;
+}
+.pol__montserratSemiBoldNoir--24 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 48px;
+}
+.pol__montserratSemiBoldNoir--25 {
+  font-family: montserratSemiBold;
+  color: black;
+  font-size: 50px;
+}
+.pol__ralewayThinNoir {
+  color: black;
+}
+.pol__ralewayThinNoir--1 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 2px;
+}
+.pol__ralewayThinNoir--2 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 4px;
+}
+.pol__ralewayThinNoir--3 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 6px;
+}
+.pol__ralewayThinNoir--4 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 8px;
+}
+.pol__ralewayThinNoir--5 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 10px;
+}
+.pol__ralewayThinNoir--6 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 12px;
+}
+.pol__ralewayThinNoir--7 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 14px;
+}
+.pol__ralewayThinNoir--8 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 16px;
+}
+.pol__ralewayThinNoir--9 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 18px;
+}
+.pol__ralewayThinNoir--10 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 20px;
+}
+.pol__ralewayThinNoir--11 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 22px;
+}
+.pol__ralewayThinNoir--12 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 24px;
+}
+.pol__ralewayThinNoir--13 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 26px;
+}
+.pol__ralewayThinNoir--14 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 28px;
+}
+.pol__ralewayThinNoir--15 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 30px;
+}
+.pol__ralewayThinNoir--16 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 32px;
+}
+.pol__ralewayThinNoir--17 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 34px;
+}
+.pol__ralewayThinNoir--18 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 36px;
+}
+.pol__ralewayThinNoir--19 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 38px;
+}
+.pol__ralewayThinNoir--20 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 40px;
+}
+.pol__ralewayThinNoir--21 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 42px;
+}
+.pol__ralewayThinNoir--22 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 44px;
+}
+.pol__ralewayThinNoir--23 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 46px;
+}
+.pol__ralewayThinNoir--24 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 48px;
+}
+.pol__ralewayThinNoir--25 {
+  font-family: ralewayThin;
+  color: black;
+  font-size: 50px;
 }
 
-.pol__size--6 {
-  font-size: 21px;
+.pol__Blanc {
+  color: white;
+}
+.pol__montserratSemiBoldBlanc {
+  color: white;
+}
+.pol__montserratSemiBoldBlanc--1 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 2px;
+}
+.pol__montserratSemiBoldBlanc--2 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 4px;
+}
+.pol__montserratSemiBoldBlanc--3 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 6px;
+}
+.pol__montserratSemiBoldBlanc--4 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 8px;
+}
+.pol__montserratSemiBoldBlanc--5 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 10px;
+}
+.pol__montserratSemiBoldBlanc--6 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 12px;
+}
+.pol__montserratSemiBoldBlanc--7 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 14px;
+}
+.pol__montserratSemiBoldBlanc--8 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 16px;
+}
+.pol__montserratSemiBoldBlanc--9 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 18px;
+}
+.pol__montserratSemiBoldBlanc--10 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 20px;
+}
+.pol__montserratSemiBoldBlanc--11 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 22px;
+}
+.pol__montserratSemiBoldBlanc--12 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 24px;
+}
+.pol__montserratSemiBoldBlanc--13 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 26px;
+}
+.pol__montserratSemiBoldBlanc--14 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 28px;
+}
+.pol__montserratSemiBoldBlanc--15 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 30px;
+}
+.pol__montserratSemiBoldBlanc--16 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 32px;
+}
+.pol__montserratSemiBoldBlanc--17 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 34px;
+}
+.pol__montserratSemiBoldBlanc--18 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 36px;
+}
+.pol__montserratSemiBoldBlanc--19 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 38px;
+}
+.pol__montserratSemiBoldBlanc--20 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 40px;
+}
+.pol__montserratSemiBoldBlanc--21 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 42px;
+}
+.pol__montserratSemiBoldBlanc--22 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 44px;
+}
+.pol__montserratSemiBoldBlanc--23 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 46px;
+}
+.pol__montserratSemiBoldBlanc--24 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 48px;
+}
+.pol__montserratSemiBoldBlanc--25 {
+  font-family: montserratSemiBold;
+  color: white;
+  font-size: 50px;
+}
+.pol__ralewayThinBlanc {
+  color: white;
+}
+.pol__ralewayThinBlanc--1 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 2px;
+}
+.pol__ralewayThinBlanc--2 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 4px;
+}
+.pol__ralewayThinBlanc--3 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 6px;
+}
+.pol__ralewayThinBlanc--4 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 8px;
+}
+.pol__ralewayThinBlanc--5 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 10px;
+}
+.pol__ralewayThinBlanc--6 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 12px;
+}
+.pol__ralewayThinBlanc--7 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 14px;
+}
+.pol__ralewayThinBlanc--8 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 16px;
+}
+.pol__ralewayThinBlanc--9 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 18px;
+}
+.pol__ralewayThinBlanc--10 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 20px;
+}
+.pol__ralewayThinBlanc--11 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 22px;
+}
+.pol__ralewayThinBlanc--12 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 24px;
+}
+.pol__ralewayThinBlanc--13 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 26px;
+}
+.pol__ralewayThinBlanc--14 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 28px;
+}
+.pol__ralewayThinBlanc--15 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 30px;
+}
+.pol__ralewayThinBlanc--16 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 32px;
+}
+.pol__ralewayThinBlanc--17 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 34px;
+}
+.pol__ralewayThinBlanc--18 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 36px;
+}
+.pol__ralewayThinBlanc--19 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 38px;
+}
+.pol__ralewayThinBlanc--20 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 40px;
+}
+.pol__ralewayThinBlanc--21 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 42px;
+}
+.pol__ralewayThinBlanc--22 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 44px;
+}
+.pol__ralewayThinBlanc--23 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 46px;
+}
+.pol__ralewayThinBlanc--24 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 48px;
+}
+.pol__ralewayThinBlanc--25 {
+  font-family: ralewayThin;
+  color: white;
+  font-size: 50px;
 }
