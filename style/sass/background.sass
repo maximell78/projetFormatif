@@ -1,6 +1,11 @@
-$couleurs: ("blanc": white)
+$couleurs: ("blanc": white, "noir": black)
 
-@each $couleur, $i in $couleurs
-    .bg__
+
+.bg__
+    @each $couleur, $i in $couleurs
         &#{$couleur}
             background-color: $i
+    @for $nbr from 1 through 15
+        &position--        
+            &#{$nbr}           
+                background-position: $nbr * 10px

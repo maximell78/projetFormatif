@@ -1,3 +1,51 @@
 .bg__blanc {
   background-color: white;
 }
+.bg__noir {
+  background-color: black;
+}
+.bg__position--1 {
+  background-position: 10px;
+}
+.bg__position--2 {
+  background-position: 20px;
+}
+.bg__position--3 {
+  background-position: 30px;
+}
+.bg__position--4 {
+  background-position: 40px;
+}
+.bg__position--5 {
+  background-position: 50px;
+}
+.bg__position--6 {
+  background-position: 60px;
+}
+.bg__position--7 {
+  background-position: 70px;
+}
+.bg__position--8 {
+  background-position: 80px;
+}
+.bg__position--9 {
+  background-position: 90px;
+}
+.bg__position--10 {
+  background-position: 100px;
+}
+.bg__position--11 {
+  background-position: 110px;
+}
+.bg__position--12 {
+  background-position: 120px;
+}
+.bg__position--13 {
+  background-position: 130px;
+}
+.bg__position--14 {
+  background-position: 140px;
+}
+.bg__position--15 {
+  background-position: 150px;
+}

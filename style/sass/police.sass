@@ -8,8 +8,12 @@
     font-family: ralewayThin
     src: url(../../police/Raleway/static/Raleway-Regular.ttf)
 
-$couleurs: ("Noir": black, "Blanc": white)
-$typePolices: (montserratSemiBold, ralewayThin)
+@font-face
+    font-family: montserratThin
+    src: url(../../police/Montserrat/Montserrat-Light.ttf)
+
+$couleurs: ("Noir": black, "Blanc": white, "Gris": #8d8d8d)
+$typePolices: (montserratSemiBold, ralewayThin, montserratLight)
 
 @each $couleur, $i in $couleurs
     .pol__
@@ -23,5 +27,5 @@ $typePolices: (montserratSemiBold, ralewayThin)
                         &--#{$nbr}
                             font-family: $typePolice
                             color: $i
-                            font-size: $compteur * 2px
+                            font-size: $nbr * 2px
 

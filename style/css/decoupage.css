@@ -1,29 +1,29 @@
 .bg__rouge {
   background-color: red;
   background-repeat: no-repeat;
-  padding: 10%;
+  height: 10em;
 }
 
 .bg__bleu {
   background-color: blue;
   background-repeat: no-repeat;
-  padding: 10%;
+  height: 10em;
 }
 
 .bg__vert {
   background-color: green;
   background-repeat: no-repeat;
-  padding: 10%;
+  height: 10em;
 }
 
 .bg__rose {
   background-color: pink;
   background-repeat: no-repeat;
-  padding: 10%;
+  height: 10em;
 }
 
 .bg__noir {
   background-color: black;
   background-repeat: no-repeat;
-  padding: 10%;
+  height: 10em;
 }

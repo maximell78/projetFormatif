@@ -1,0 +1,47 @@
+/* style.css */
+/* Programmé par : Maxime Lacroix-Lemire */
+/* Dernière Mise À  Jour :  2021/07/09 */
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.position_g {
+    position:  -50em;
+}
+
+.btn__bleuH:hover {
+    background-color: #47c9e5;
+    color: white;
+    font-weight: bold;
+}
+
+.btn__bleu {
+    background-color: #47c9e5;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.3s;
+}
+
+.cardText {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #fff;
+}
